@@ -4,6 +4,8 @@
  */
 package gr.mycompany.btree;
 
+import java.util.Objects;
+
 
 /**
  *
@@ -65,7 +67,14 @@ public class BtreeDfsMain {
         rootNode.printBtreeNode();
         
         //TODO complete the tree in the comments above
-        //TODO create a method in BtreeNode class to see if the node is leaf (has no children)
+        
+     //   aNode.setLeft(cNode);
+     //   aNode.setRight(dNode);
+     //   bNode.setRight(eNode);
+        
+
+//TODO create a method in BtreeNode class to see if the node is leaf (has no children)
+        
         
         
         //DFS code with stack using ArrayList
@@ -79,8 +88,30 @@ public class BtreeDfsMain {
         push next node 
         pop current to check if it is leaf or not
         
+        A class BtreeStackDFS is used for stack data structure
+        
         */
         
+       BtreeStackDFS stack = new BtreeStackDFS();
+       
+       BtreeNode current;
+       
+       stack.push(rootNode);
+       
+       while (stack.size()>0){
+           current = stack.pop();
+           System.out.println("Current Node is: "+current.getNodeValue());
+           if (Objects.isNull(current.getLeft())){
+               System.out.println("No Left child");
+                       }else {
+               stack.push(current.getLeft());
+           }
+           if (Objects.isNull(current.getRight())){
+               System.out.println("No Right child");
+                       }else {
+               stack.push(current.getRight());
+           }
+       }
        
         
         
