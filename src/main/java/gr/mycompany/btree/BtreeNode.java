@@ -11,11 +11,11 @@ package gr.mycompany.btree;
  */
 public class BtreeNode {
     
-        private int nodeValue;
+        private String nodeValue;
         private BtreeNode left;
         private BtreeNode right;
 
-    public BtreeNode(int nodeValue) {
+    public BtreeNode(String nodeValue) {
         this.nodeValue = nodeValue;
         this.left = null;
         this.right = null;
@@ -48,7 +48,7 @@ public class BtreeNode {
      *
      * @return the value of nodeValue
      */
-    public int getNodeValue() {
+    public String getNodeValue() {
         return nodeValue;
     }
 
@@ -57,7 +57,7 @@ public class BtreeNode {
      *
      * @param nodeValue new value of nodeValue
      */
-    public void setNodeValue(int nodeValue) {
+    public void setNodeValue(String nodeValue) {
         this.nodeValue = nodeValue;
     }
 
