@@ -37,6 +37,14 @@ public class BtreeMain {
         //TODO create the connections as the following example in comments
         
         /*
+        
+        Binary Tree
+        Ακριβώς μία ρίζα
+        Το πολύ δύο παιδιά ανά κόμβο
+        Ακριβώς ένα μονοπάτι για κάθε κόμβο
+        
+        Οι κόμβοι χωρίς κανένα παιδί λέγονται φύλλα
+        
         [root]
          /  \
         a    b
