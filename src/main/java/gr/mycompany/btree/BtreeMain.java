@@ -52,6 +52,7 @@ public class BtreeMain {
         
         rootNode.printBtreeNode();
         
+        //TODO complete the tree in the comments above
         //TODO create a method in BtreeNode class to see if the node is leaf (has no children)
         
     }
