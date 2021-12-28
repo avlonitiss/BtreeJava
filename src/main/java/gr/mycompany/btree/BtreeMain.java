@@ -16,12 +16,27 @@ public class BtreeMain {
     public static void main(String[] args) {
         // TODO create the root node and the rest nodes without connection
         BtreeNode rootNode = new BtreeNode("root");
+        rootNode.printBtreeNode();
         BtreeNode aNode = new BtreeNode("a");
         BtreeNode bNode = new BtreeNode("b");
         BtreeNode cNode = new BtreeNode("c");
         BtreeNode dNode = new BtreeNode("d");
         BtreeNode eNode = new BtreeNode("e");
         
+        
+        //TODO create the connections as the following example in comments
+        
+        /*
+        [root]
+         /  \
+        a    b
+       / \    \
+      c   d    e
+        
+        */
+        
+        rootNode.setLeft(aNode);
+        rootNode.setRight(bNode);
         
     }
     
