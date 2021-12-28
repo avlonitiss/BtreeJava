@@ -17,11 +17,21 @@ public class BtreeMain {
         // TODO create the root node and the rest nodes without connection
         BtreeNode rootNode = new BtreeNode("root");
         rootNode.printBtreeNode();
+        
         BtreeNode aNode = new BtreeNode("a");
+        aNode.printBtreeNode();
+        
         BtreeNode bNode = new BtreeNode("b");
+        bNode.printBtreeNode();
+        
         BtreeNode cNode = new BtreeNode("c");
+        bNode.printBtreeNode();
+        
         BtreeNode dNode = new BtreeNode("d");
+        bNode.printBtreeNode();
+        
         BtreeNode eNode = new BtreeNode("e");
+        bNode.printBtreeNode();
         
         
         //TODO create the connections as the following example in comments
