@@ -40,7 +40,7 @@ public class BtreeNode {
     }
         
     public void printBtreeNode() {
-        System.out.println("Node value is: " + this.nodeValue +"\n"+
+        System.out.print("Node value is: " + this.nodeValue +"\n"+
                 "Left child value is: ");
         
        // check for null child node before print
@@ -51,12 +51,12 @@ public class BtreeNode {
           System.out.print(this.getLeft().nodeValue+"\n");
       }
       
-       System.out.println("Right child value is: ");
+       System.out.print("Right child value is: ");
        
        if (Objects.isNull(this.right)){
-           System.out.println("Empty \n");
+           System.out.println("Empty \n\n");
        }else {
-           System.out.println(this.getRight().nodeValue+"\n");  
+           System.out.println(this.getRight().nodeValue+"\n\n");  
        }
       
                
