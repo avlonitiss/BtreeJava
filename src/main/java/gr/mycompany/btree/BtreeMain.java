@@ -48,6 +48,13 @@ public class BtreeMain {
         rootNode.setLeft(aNode);
         rootNode.setRight(bNode);
         
+        System.out.println("\n*** root node has now two children ***\n");
+        
+        rootNode.printBtreeNode();
+        
+        //TODO create a method in BtreeNode class to see if the node is leaf (has no children)
+        
     }
+    
     
 }
