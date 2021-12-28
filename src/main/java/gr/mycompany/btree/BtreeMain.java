@@ -25,13 +25,13 @@ public class BtreeMain {
         bNode.printBtreeNode();
         
         BtreeNode cNode = new BtreeNode("c");
-        bNode.printBtreeNode();
+        cNode.printBtreeNode();
         
         BtreeNode dNode = new BtreeNode("d");
-        bNode.printBtreeNode();
+        dNode.printBtreeNode();
         
         BtreeNode eNode = new BtreeNode("e");
-        bNode.printBtreeNode();
+        eNode.printBtreeNode();
         
         
         //TODO create the connections as the following example in comments
