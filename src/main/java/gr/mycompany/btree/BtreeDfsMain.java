@@ -4,6 +4,7 @@
  */
 package gr.mycompany.btree;
 
+
 /**
  *
  * @author Spyros
@@ -13,6 +14,9 @@ public class BtreeDfsMain {
     /**
      * @param args the command line arguments
      */
+    
+
+     
     public static void main(String[] args) {
         // TODO create the root node and the rest nodes without connection
         BtreeNode rootNode = new BtreeNode("root");
@@ -63,7 +67,25 @@ public class BtreeDfsMain {
         //TODO complete the tree in the comments above
         //TODO create a method in BtreeNode class to see if the node is leaf (has no children)
         
+        
+        //DFS code with stack using ArrayList
+        
+        //TODO create a dfs traversal with while and stack
+        //TODO create a method hasParent in BtreeNode to check if node is root
+        
+        /* 
+        DFS uses stack as a data structure
+        stack in Java will be used with arraylist
+        push next node 
+        pop current to check if it is leaf or not
+        
+        */
+        
+       
+        
+        
     }
     
+   
     
 }
