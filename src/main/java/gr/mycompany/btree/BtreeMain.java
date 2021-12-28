@@ -14,9 +14,13 @@ public class BtreeMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        BtreeNode rootNode = new BtreeNode();
-        BtreeNode aNode = new BtreeNode('a');
+        // TODO create the root node and the rest nodes without connection
+        BtreeNode rootNode = new BtreeNode("root");
+        BtreeNode aNode = new BtreeNode("a");
+        BtreeNode bNode = new BtreeNode("b");
+        BtreeNode cNode = new BtreeNode("c");
+        BtreeNode dNode = new BtreeNode("d");
+        BtreeNode eNode = new BtreeNode("e");
         
         
     }
